@@ -10,6 +10,7 @@ api.get('/', (req, res) => {
 
 api.use('/user', userRouter)
 
+
 api.listen(3000, () => {
     console.log('Servidor rodando na porta 3000! http://localhost:3000')
 })
